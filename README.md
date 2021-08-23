@@ -76,12 +76,12 @@ helm create helm
 helm install go-minikube ./helm/
 ```
 
-12. Start minikube (Optional)
+12. (Optional) Start minikube
 ```shell
 minikube start
 ```
 
-13. Unistall helm release (Optional)
+13. (Optional) Unistall helm release
 ```shell
 helm uninstall go-minikube
 ```
